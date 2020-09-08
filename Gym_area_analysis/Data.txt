@@ -1,0 +1,16 @@
+# Type of Data:
+The main data used will be the data obtained through the Foursquare API.
+
+# Steps/structure of the analysis:
+Using the Foursquare API the following steps will be explored.
+	1- A list of the existing training centers in the montreal area will be prepared.
+	2- The ratings/likes count of these training centers as well as the surrounding venues of each training centers
+	will be searched using the Foursquare API.
+	3- Clusters of these training centers will be formed to explore any similarities of their surroundings
+	4- Each cluster will be analyzed to explore the most common venues
+	5- Using the ratings of the training centers and the clusters formed we will see which cluster groups most of the best
+	rated training center
+	6- Distances between training centers and some specific types of venues such as other gyms, gaz stations, metro stations,
+	restaurants, etc will be computed using the latitudes and longitudes.
+	Then these deistances will be plotted against the raitings and/or likes counts to see if there are any trends/effects 
+	of the proximity on the popularity of these training centers.
